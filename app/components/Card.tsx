@@ -23,8 +23,8 @@ const Card: React.FC<CardComponents> = ({
       <Image src={image} width={218.4} height={385.31} alt="player-card" />
       <div className={`mt-[14.59px] text-[17px] ${inter500.className}`}>
         {teamName}
-      I</div>
-      <div className="mt-[14px] bg-[#F7F7F8] dark:bg-[#292B32] py-[11px] px-[10.06px] w-[218.4px] h-[54px] flex justify-center items-center gap-[41px]">
+      </div>
+      <div className="mt-[7px] bg-[#F7F7F8] dark:bg-[#292B32] px-[10.06px] w-[218.4px] h-[54px] flex justify-center items-center gap-[41px]">
         <div>
           <h4
             className={`text-[#525965] dark:text-[#DFDFDF] text-[12px] ${inter200.className}`}

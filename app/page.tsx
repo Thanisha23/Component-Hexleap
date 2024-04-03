@@ -119,7 +119,7 @@ export default function Home() {
     },
   ];
   return (
-    <div className="bg-[#F7F7F8] dark:bg-[#292B32] md:py-[4rem] py-[2rem] px-[1rem] md:px-[9rem] overflow-x-hidden">
+    <div className="bg-[#F7F7F8] dark:bg-[#292B32] md:py-[4rem] py-[3rem] px-[1rem] md:px-[9rem] overflow-x-hidden">
       <div className="">
         {/* inside this box only */}
         <div className="flex justify-between items-center">
@@ -158,9 +158,9 @@ export default function Home() {
         </div>
         {/* second box */}
         <div className="flex justify-center items-center">
-          <div className="mt-[53px] bg-[#F9F8FF] dark:bg-gradient-to-t from-[#221A2C] to-[#18282A] w-[350px] md:w-[1240px] md:h-[950px] pt-[70px] pb-[49px] px-0 md:px-[78px] flex justify-center">
+          <div className="mt-[53px] bg-[#F9F8FF] dark:bg-gradient-to-t from-[#221A2C] to-[#18282A] w-[350px] md:w-[1240px] md:h-[950px] pt-[70px] pb-[49px] px-0 md:px-[78px] flex justify-center mb-[2rem]">
             <div
-              className={`md:w-[1085.75px] w-[300px] md:h-[799px] bg-white dark:bg-transparent`}
+              className={`md:w-[1085.75px] w-[300px] md:h-[860px] h-[930px] bg-white dark:bg-transparent`}
             >
               <div>
                 <h1

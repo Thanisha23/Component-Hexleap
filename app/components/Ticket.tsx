@@ -18,7 +18,7 @@ const Ticket: React.FC<TicketComponents> = ({
   buttonText,
 }) => {
   return (
-    <div className="w-[240px] h-[600px] bg-white dark:bg-[#3B3F46] shadow-2xl py-[10px] relative">
+    <div className="w-[240px] h-[586px] bg-white dark:bg-[#3B3F46] shadow-2xl py-[10px] relative">
       <Image src={image} width={600} height={401.25} alt="ticket" />
       <div className="mx-auto  w-[200px] h-[10px] border-x-transparent border-t-transparent dark:border-x-transparent dark:border-t-transparent border border-b-2 border-[#A9ACB2] dark:border-[#818A97]/50 border-dashed absolute left-0 right-0 bottom-[210px]"></div>
 
