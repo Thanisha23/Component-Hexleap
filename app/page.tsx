@@ -96,8 +96,8 @@ export default function Home() {
     },
   ];
   return (
-    <div className="bg-[#F7F7F8] dark:bg-[#292B32]">
-      <div className="py-[5rem] px-[3rem] md:px-[9rem]">
+    <div className="bg-[#F7F7F8] dark:bg-[#292B32] py-[3rem] px-[1rem] md:px-[9rem]">
+      <div className="">
         {/* inside this box only */}
         <div className="flex justify-between items-center">
           <div className="w-[80px] h-[41px] border-b-2 border-b-[#738FFF]">
@@ -134,9 +134,11 @@ export default function Home() {
           <Button />
         </div>
         {/* second box */}
-        <div className="mt-[53px] bg-[#F9F8FF] dark:bg-gradient-to-t from-[#221A2C] to-[#18282A] md::w-[1240px] md::h-[900px] pt-[70px] pb-[49px] px-0 md:px-[78px]">
+        <div className="flex justify-center items-center">
+
+        <div className="mt-[53px] bg-[#F9F8FF] dark:bg-gradient-to-t from-[#221A2C] to-[#18282A] w-[350px] md:w-[1240px] md:h-[900px] pt-[70px] pb-[49px] px-0 md:px-[78px] flex justify-center items-center">
           <div
-            className={`md:w-[1085.75px] md:h-[799px] bg-white dark:bg-transparent`}
+            className={`md:w-[1085.75px] w-[300px] md:h-[799px] bg-white dark:bg-transparent`}
           >
             <div>
               <h1
@@ -145,7 +147,7 @@ export default function Home() {
                 Collection Spotlight
               </h1>
               <h4
-                className={`text-center mx-auto ${inter200.className} text-[12px] md:text-[14px] pt-[25px] md:w-[917px] w-[350px] h-[46px] md:h-[46px] dark:text-white`}
+                className={`text-center mx-auto ${inter200.className} text-[12px] md:text-[14px] pt-[25px] md:w-[917px] w-[250px] h-[80px] md:h-[46px] dark:text-white`}
               >
                 Discover extraordinary moments with our Spotlight Collection
                 metatickets—exclusive access to premium events for an
@@ -168,6 +170,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </div>
